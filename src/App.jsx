@@ -219,8 +219,8 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-teal-400 rounded-full blur-2xl opacity-30"></div>
                 <img
-                  src={myImage}
-                  alt="Profile"
+                  src="/image.png"
+                  alt= "Profile"
                   className="relative w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-2xl border-4 border-white"
                 />
               </div>
