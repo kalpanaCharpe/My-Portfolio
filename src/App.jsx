@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, MapPin, Phone, Download, ChevronDown, ExternalLink } from 'lucide-react';
+import chatImg from './assets/chat.png';
+import travelImg from './assets/travel.jpg';
+import proImg from './assets/proj_5.jpg';
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,7 +46,7 @@ export default function Portfolio() {
       title: 'ChatZone',
       description: 'Built a real-time chat application using the MERN stack enabling realtime communication via Socket.IO allowing users to join specific chat rooms and exchange messages dynamically',
       tech: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
-      image: 'src/assets/chat.png',
+      image: chatImg,
       github: 'https://github.com/kalpanaCharpe/ChatZone',
       live: 'https://chatzone-lob6.onrender.com/'
     },
@@ -51,7 +54,7 @@ export default function Portfolio() {
       title: 'Travel and Stay',
       description: 'Developed a full-stack travel booking web application using Node.js, Express, and MongoDB, enabling users to search, book, and manage travel accommodations.',
       tech: ['Node.js', 'MongoDB', 'Express.js'],
-      image: 'src/assets/travel.jpg',
+      image: travelImg,
       github: 'https://github.com/kalpanaCharpe/Travel-and-Stay',
       live: 'https://travel-and-stay-99vi.onrender.com/listings'
     },
@@ -59,7 +62,7 @@ export default function Portfolio() {
       title: 'Pro-Linker',
       description: 'Developed a full-stack networking application using Next.js, Node.js, and MongoDB, enabling secure authentication, profile creation, and interactive features like commenting and liking.',
       tech: ['Next.js', 'Node.js', 'Express.js', 'MongoDB'],
-      image: 'src/assets/proj_5.jpg',
+      image: proImg,
       github: 'https://github.com/kalpanaCharpe/Pro-Linker',
       live: 'https://pro-linker-ashy.vercel.app/'
     }
