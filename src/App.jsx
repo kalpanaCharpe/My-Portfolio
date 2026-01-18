@@ -3,6 +3,7 @@ import { Menu, X, Github, Linkedin, Mail, MapPin, Phone, Download, ChevronDown, 
 import chatImg from './assets/chat.png';
 import travelImg from './assets/travel.jpg';
 import proImg from './assets/proj_5.jpg';
+import myImage from './assets/about-me.png'
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -218,7 +219,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-teal-400 rounded-full blur-2xl opacity-30"></div>
                 <img
-                  src="src/assets/about-me.png"
+                  src={myImage}
                   alt="Profile"
                   className="relative w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-2xl border-4 border-white"
                 />
