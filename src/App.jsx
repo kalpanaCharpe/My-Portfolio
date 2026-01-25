@@ -84,11 +84,11 @@ export default function Portfolio() {
     }
   ];
 
-  const githubStats = {
-    contributions: 1234,
-    stars: 567,
-    repositories: 42
-  };
+  // const githubStats = {
+  //   contributions: 1234,
+  //   stars: 567,
+  //   repositories: 42
+  // };
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -239,7 +239,7 @@ team and grow as a professional software engineer.
               </p>
 
               <div className="flex gap-4">
-                <a href="https://drive.google.com/file/d/1MFZ8KEvD2m3kZs09iQA8AChjjbLWk4Vu/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/14GEwif2Xscmu5s7XL40wnZT0xARj9uiD/view?usp=sharing">
                 <button className="px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2">
                   <Download size={20} />
                   Download Resume
@@ -481,7 +481,7 @@ team and grow as a professional software engineer.
               </div>
             </a>
 
-            <a href="https://drive.google.com/file/d/1MFZ8KEvD2m3kZs09iQA8AChjjbLWk4Vu/view?usp=sharing" className="flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-all">
+            <a href="https://drive.google.com/file/d/14GEwif2Xscmu5s7XL40wnZT0xARj9uiD/view?usp=sharing" className="flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-all">
               <Download className="w-6 h-6 text-white" />
               <div className="text-left">
                 <div className="text-xs text-white/70">Resume</div>
